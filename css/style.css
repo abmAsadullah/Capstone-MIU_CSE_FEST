@@ -55,19 +55,71 @@ header {
   padding-left: 30px;
 }
 
-.top-foot {
-  width: 100%;
+.speaker-sec {
+  padding: 50px 200px;
+}
+.speakers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.speaker img {
+  width: 150px;
+  padding-right: 20px;
+}
 
+.spekaer-title h4 {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.spekaer-title h5 {
+  font-style: italic;
+  font-size: 15px;
+  color: red;
+  margin: 0;
+}
+
+.spekaer-title h5::after {
+  content: "";
+  display: block;
+  width: 11%;
+  padding-top: 10px;
+  border-bottom: 2px solid #d3d3d3;
+}
+
+.spekaer-title h6 {
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+footer {
+}
+.top-foot {
   background-color: #272a31;
   color: #d3d3d3;
+  padding: 0 200px;
 }
 .top-foot-title {
 }
 
-.top-foot-title h2 {
-  padding: 30px 0 10px;
-  font-size: 20px;
-  font-weight: 100;
+.top-foot-title h2,
+.speaker-sec h2 {
+  padding: 30px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.top-foot-title h2::after,
+.speaker-sec h2::after {
+  margin: 0 auto;
+  content: "";
+  display: block;
+  width: 5%;
+  padding-top: 10px;
+  border-bottom: 2px solid #ec5242;
 }
 
 .top-foot-logo h3 {
