@@ -136,7 +136,8 @@ header {
 }
 
 .about-logo,
-.older {
+.older,
+.tickets {
   padding: 50px 200px;
   text-align: center;
 }
@@ -144,7 +145,8 @@ header {
   border-bottom: 1px solid #d3d3d3;
 }
 .about-logo h2,
-.older h2 {
+.older h2,
+.tickets h2 {
   font-size: 25px;
   font-weight: bold;
 }
@@ -191,6 +193,38 @@ header {
   color: white;
   font-size: 15px;
   margin: 0 auto;
+}
+
+.tickets h4 {
+  padding: 10px 0 20px;
+}
+.tickets h4 a {
+  border-radius: 20px;
+  border: 1px solid #5e6064;
+  padding: 8px 20px;
+  color: #3c3f46;
+  font-size: 15px;
+}
+
+.tickets h4 a:hover {
+  text-decoration: none;
+}
+
+.table-tic {
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px dotted #ec5242;
+}
+
+.table-tic td,
+.table-tic th {
+  border: 1px solid #5e6064;
+  padding: 5px;
+}
+
+.table-tic th {
+  background-color: #d3d3d3;
+  color: #3c3f46;
 }
 .topics {
   background-color: #272a31;
@@ -296,7 +330,8 @@ footer {
 .speaker-sec h2::after,
 .topics h2::after,
 .about-logo h2::after,
-.older h2::after {
+.older h2::after,
+.tickets h2::after {
   margin: 0 auto;
   content: "";
   display: block;
