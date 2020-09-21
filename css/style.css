@@ -80,13 +80,19 @@ header {
 }
 
 .slides {
-  height: 90vh;
-  padding: 0 200px;
-  padding-top: 80px;
+  padding: 80px 200px;
+  /* background-image: url("../images/bg/fest-01.jpg"); */
+  background: linear-gradient(
+    90deg,
+    rgba(52, 42, 219, 1) 0%,
+    rgba(197, 231, 54, 1) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-size: cover;
 }
 
 .slides-title-1 {
-  color: #ec5242;
+  color: white;
   font-size: 30px;
   padding: 10px 0;
 }
@@ -94,7 +100,7 @@ header {
 .slides-title-2 {
   font-size: 40px;
   font-weight: bolder;
-  color: #ec5242;
+  color: white;
 }
 
 .slides-description {
@@ -103,18 +109,55 @@ header {
   font-weight: bold;
   font-size: 13px;
   width: 70%;
-  padding: 15px 0;
+  padding: 15px 5px;
 }
 
 .slides-date {
+  padding-top: 20px;
   font-weight: bolder;
   font-size: 30px;
 }
 
 .slides-cop {
-  color: gray;
+  color: white;
   font-size: 20px;
 }
+
+.contact a {
+  color: #3c3f46;
+  text-decoration: underline;
+}
+
+.contact a:hover {
+  color: #3c3f46;
+  text-decoration: none;
+}
+
+.about-logo,
+.older {
+  padding: 50px 200px;
+  text-align: center;
+}
+.about-logo {
+  border-bottom: 1px solid #d3d3d3;
+}
+.about-logo h2,
+.older h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.about-logo p,
+.older p {
+  width: 50%;
+  font-size: 12px;
+  color: #5e6064;
+}
+.about-logo img {
+  width: 200px;
+  border: 1px solid #d3d3d3;
+}
+
 .topics {
   background-color: #272a31;
   color: #d3d3d3;
@@ -217,7 +260,9 @@ footer {
 
 .top-foot-title h2::after,
 .speaker-sec h2::after,
-.topics h2::after {
+.topics h2::after,
+.about-logo h2::after,
+.older h2::after {
   margin: 0 auto;
   content: "";
   display: block;
@@ -226,11 +271,31 @@ footer {
   border-bottom: 2px solid #ec5242;
 }
 
-.top-foot-logo h3 {
-  padding: 10px 20px 30px 20px;
+.top-foot-logo {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.top-foot-logo img {
+  max-width: 100px;
+  max-height: 50px;
 }
 .bot-foot {
-  width: 100%;
-  height: 150px;
-  background-color: gray;
+  padding: 50px 200px;
+}
+
+.bot-foot img {
+  width: 100px;
+}
+
+.bot-foot-right {
+  padding-left: 200px;
+}
+
+.bot-foot-right p {
+  color: gray;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
 }
