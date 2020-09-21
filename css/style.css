@@ -17,13 +17,13 @@ a {
   text-decoration: none;
 }
 
-.p-lr-100 {
-  padding: 0 100px;
+.p-lr-200 {
+  padding: 0 200px;
 }
 /* header classes */
 header {
-  margin: 0;
-  padding: 0;
+  position: sticky;
+  top: 0;
 }
 .top-nav {
   height: 30px;
@@ -51,10 +51,70 @@ header {
   font-weight: bold;
 }
 
+.bot-nav {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: rgb(248, 246, 246);
+}
+
+.left-nav img {
+  height: 50px;
+}
 .right-nav ul li {
   padding-left: 30px;
 }
 
+.right-nav ul li a {
+  color: #3c3f46;
+  font-weight: bold;
+}
+
+.right-nav ul li a:hover {
+  color: #ec5242;
+  text-decoration: none;
+}
+.nav-camp a {
+  padding: 8px;
+  border: 3px solid #ec5242;
+}
+
+.slides {
+  height: 90vh;
+  padding: 0 200px;
+  padding-top: 80px;
+}
+
+.slides-title-1 {
+  color: #ec5242;
+  font-size: 30px;
+  padding: 10px 0;
+}
+
+.slides-title-2 {
+  font-size: 40px;
+  font-weight: bolder;
+  color: #ec5242;
+}
+
+.slides-description {
+  background-color: white;
+  color: #5e6064;
+  font-weight: bold;
+  font-size: 13px;
+  width: 70%;
+  padding: 15px 0;
+}
+
+.slides-date {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.slides-cop {
+  color: gray;
+  font-size: 20px;
+}
 .topics {
   background-color: #272a31;
   color: #d3d3d3;
