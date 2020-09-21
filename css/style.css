@@ -55,8 +55,50 @@ header {
   padding-left: 30px;
 }
 
+.topics {
+  background-color: #272a31;
+  color: #d3d3d3;
+  padding: 0 200px;
+}
+
+.topics h5 {
+  text-align: center;
+  padding-bottom: 100px;
+}
+.topics h5 a {
+  text-decoration: underline;
+  font-size: 18px;
+  color: #d3d3d3;
+}
+.topic-items {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 3px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.topic-item {
+  background: #3c3f46;
+  padding: 10px;
+}
+
+.topic-item:hover {
+  border: 1px solid #d3d3d3;
+  cursor: pointer;
+}
+.topic-item h3 {
+  color: #ec5242;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.topic-item p {
+  font-size: 13px;
+  color: #d3d3d3;
+}
 .speaker-sec {
-  padding: 50px 200px;
+  padding: 0 200px 30px;
 }
 .speakers {
   display: grid;
@@ -106,14 +148,16 @@ footer {
 }
 
 .top-foot-title h2,
-.speaker-sec h2 {
+.speaker-sec h2,
+.topics h2 {
   padding: 30px;
   font-size: 25px;
   font-weight: bold;
 }
 
 .top-foot-title h2::after,
-.speaker-sec h2::after {
+.speaker-sec h2::after,
+.topics h2::after {
   margin: 0 auto;
   content: "";
   display: block;
