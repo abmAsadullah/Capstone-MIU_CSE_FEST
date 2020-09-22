@@ -26,6 +26,10 @@ This is solo project. So, I have done this from my idea. Idea comes from a funct
 - Twitter: [@abmasadullah](https://twitter.com/abmasadullah)
 - Linkedin: [@abmasadullah](https://www.linkedin.com/in/abmasadullah)
 
+## Design
+
+- Design credit: [@Cindy Shin in Behance](https://www.behance.net/adagio07)
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
