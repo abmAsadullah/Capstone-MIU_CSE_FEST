@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "cocogoose", "Lato";
+  font-family: "Lato";
 }
 
 ul {
@@ -40,6 +40,16 @@ header {
   padding-left: 15px;
 }
 
+.nav-camp a {
+  padding: 8px;
+  border: 3px solid #ec5242;
+}
+
+.contact a {
+  color: #3c3f46;
+  text-decoration: underline;
+}
+
 .see-more h5 a {
   font-size: 15px;
   color: #3c3f46;
@@ -59,16 +69,6 @@ header {
   font-size: 15px;
 }
 
-.contact a {
-  color: #3c3f46;
-  text-decoration: underline;
-}
-
-.nav-camp a {
-  padding: 8px;
-  border: 3px solid #ec5242;
-}
-
 .right-nav ul li a {
   color: #3c3f46;
   font-weight: bold;
@@ -79,12 +79,12 @@ header {
   color: white;
 }
 
-.tickets h4 a:hover {
+.contact a:hover {
+  color: #3c3f46;
   text-decoration: none;
 }
 
-.contact a:hover {
-  color: #3c3f46;
+.tickets h4 a:hover {
   text-decoration: none;
 }
 
