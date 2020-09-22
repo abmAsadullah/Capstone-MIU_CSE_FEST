@@ -4,9 +4,9 @@
 
 This project is for Practicing HTML Layout designing using HTML, plain CSS and Bootstrap properties, and media queries for responsive.
 
-This is solo project. So, I have done this from my idea. Idea comes from a function that was in our University.
-
 ![screenshot](./images/demo.JPG/)
+
+This is solo project. So, I have done this from my idea. Idea comes from a function that was in our University.
 
 ## Built With
 
