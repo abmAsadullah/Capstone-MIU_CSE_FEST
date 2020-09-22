@@ -46,13 +46,13 @@
           </ul>
         </div>
       </nav>
-      <div class="mobile-menu d-block d-md-none">
-        <i class="fas fa-bars"></i>
-      </div>
     </header>
 
     <main>
       <div class="slides">
+        <div class="mobile-menu d-block d-md-none">
+          <i class="fas fa-bars"></i>
+        </div>
         <h2 class="slides-title-1">"Hello Programmers!"</h2>
         <h2 class="slides-title-2">MANARAT INTERNATIONAL UNIVERSITY</h2>
         <h2 class="slides-title-2">CSE FEST</h2>
@@ -111,7 +111,11 @@
             </p>
           </div>
         </div>
-        <h5><a href="#">SEE THE WHOLE PROGRAM</a></h5>
+        <div class="text-center d-block d-md-none pb-4">
+          <input type="button" class="button" value="Join MIU CSE Fest 2020" />
+        </div>
+
+        <h5 class="d-none d-md-block"><a href="#">SEE THE WHOLE PROGRAM</a></h5>
       </div>
       <div class="speaker-sec">
         <h2 class="text-center">Honorable Speakers</h2>
@@ -218,9 +222,13 @@
           </div>
         </div>
       </div>
+      <div class="see-more d-block d-md-none text-center">
+        <h5>
+          <a href="#"> MORE <span class="text-danger">&#x2228;</span></a>
+        </h5>
+      </div>
     </main>
-
-    <footer>
+    <footer class="d-none d-md-block">
       <div class="top-foot">
         <div class="top-foot-title text-center">
           <h2>Partner</h2>
