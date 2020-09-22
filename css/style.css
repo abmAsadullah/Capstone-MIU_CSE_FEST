@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lato";
+  font-family: Lato;
 }
 
 ul {
@@ -120,7 +120,12 @@ header {
 
 .slides {
   padding: 40px 40px;
-  background: linear-gradient(90deg, rgba(52, 42, 219, 1) 0%, rgba(197, 231, 54, 1) 50%, rgba(0, 212, 255, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(52, 42, 219, 1) 0%,
+    rgba(197, 231, 54, 1) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 .slides-title-1 {
@@ -193,11 +198,21 @@ header {
 }
 
 .old-photo-1 {
-  background-image: linear-gradient(to bottom, rgba(174, 65, 45, 0.52), rgba(174, 65, 45, 0.52)), url("../images/bg/contest.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(174, 65, 45, 0.52),
+      rgba(174, 65, 45, 0.52)
+    ),
+    url("../images/bg/contest.jpg");
 }
 
 .old-photo-2 {
-  background-image: linear-gradient(to bottom, rgba(174, 65, 45, 0.52), rgba(174, 65, 45, 0.52)), url("../images/bg/fest-01.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(174, 65, 45, 0.52),
+      rgba(174, 65, 45, 0.52)
+    ),
+    url("../images/bg/fest-01.jpg");
 }
 
 .old-photo-1,
