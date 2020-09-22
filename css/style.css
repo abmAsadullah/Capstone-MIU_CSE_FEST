@@ -40,9 +40,52 @@ header {
   padding-left: 15px;
 }
 
+.see-more h5 a {
+  font-size: 15px;
+  color: #3c3f46;
+}
+
+.topics h5 a {
+  text-decoration: underline;
+  font-size: 18px;
+  color: #d3d3d3;
+}
+
+.tickets h4 a {
+  border-radius: 20px;
+  border: 1px solid #5e6064;
+  padding: 8px 20px;
+  color: #3c3f46;
+  font-size: 15px;
+}
+
+.contact a {
+  color: #3c3f46;
+  text-decoration: underline;
+}
+
+.nav-camp a {
+  padding: 8px;
+  border: 3px solid #ec5242;
+}
+
+.right-nav ul li a {
+  color: #3c3f46;
+  font-weight: bold;
+}
+
 .top-nav ul li a {
   font-size: 13px;
   color: white;
+}
+
+.tickets h4 a:hover {
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color: #3c3f46;
+  text-decoration: none;
 }
 
 .top-nav ul li a:hover {
@@ -65,19 +108,9 @@ header {
   padding-left: 30px;
 }
 
-.right-nav ul li a {
-  color: #3c3f46;
-  font-weight: bold;
-}
-
 .right-nav ul li a:hover {
   color: #ec5242;
   text-decoration: none;
-}
-
-.nav-camp a {
-  padding: 8px;
-  border: 3px solid #ec5242;
 }
 
 .mobile-menu i {
@@ -127,16 +160,6 @@ header {
 .slides-cop {
   color: white;
   font-size: 18px;
-}
-
-.contact a {
-  color: #3c3f46;
-  text-decoration: underline;
-}
-
-.contact a:hover {
-  color: #3c3f46;
-  text-decoration: none;
 }
 
 .about-logo,
@@ -218,18 +241,6 @@ header {
   padding: 10px 0 20px;
 }
 
-.tickets h4 a {
-  border-radius: 20px;
-  border: 1px solid #5e6064;
-  padding: 8px 20px;
-  color: #3c3f46;
-  font-size: 15px;
-}
-
-.tickets h4 a:hover {
-  text-decoration: none;
-}
-
 .table-tic {
   width: 100%;
   border-collapse: collapse;
@@ -269,12 +280,6 @@ header {
 .topics h5 {
   text-align: center;
   padding-bottom: 100px;
-}
-
-.topics h5 a {
-  text-decoration: underline;
-  font-size: 18px;
-  color: #d3d3d3;
 }
 
 .topic-items {
@@ -355,11 +360,6 @@ header {
 .spekaer-title h6 {
   font-size: 15px;
   padding-top: 10px;
-}
-
-.see-more h5 a {
-  font-size: 15px;
-  color: #3c3f46;
 }
 
 .top-foot {
