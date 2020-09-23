@@ -60,14 +60,17 @@
 
     <main>
       <div class="tickets">
-        <h1>Select Ticket</h1>
+        <h1 class="mb-3 border">Join Us</h1>
+        <h2>Select Ticket</h2>
         <h4>
           <a href="#"
-            ><span class="text-danger pr-2">STEP 1:</span>Please select your
-            date</a
-          >
+            ><span class="text-danger pr-2">STEP 1:</span
+            ><span class="d-none d-sm-inline-block"
+              >Please select your date</span
+            >
+          </a>
         </h4>
-        <table class="table-tic">
+        <table class="table-tic d-none d-sm-table">
           <tr>
             <th>Date</th>
             <th>12 Mar</th>
@@ -133,12 +136,53 @@
           </tr>
         </table>
 
-        <h1 class="pt-5">Select Lunch</h1>
+        <table class="table-tic d-sm-none">
+          <tr>
+            <th>Day</th>
+            <th>1 day</th>
+            <th>2 days</th>
+            <th>3 days</th>
+          </tr>
+          <tr>
+            <td>Normal</td>
+            <td>
+              <input type="radio" id="pay-2" name="stu" value="pay-2" />
+              <label for="pay-2">50 TK</label>
+            </td>
+            <td>
+              <input type="radio" id="pay-3" name="stu" value="pay-3" />
+              <label for="pay-3">90 TK</label>
+            </td>
+            <td>
+              <input type="radio" id="pay-5" name="stu" value="pay-5" />
+              <label for="pay-5">120 TK</label>
+            </td>
+          </tr>
+          <tr>
+            <td>Student</td>
+            <td>
+              <input type="radio" id="pay-8" name="stu" value="pay-8" />
+              <label for="pay-8">40 TK</label>
+            </td>
+            <td>
+              <input type="radio" id="pay-10" name="stu" value="pay-10" />
+              <label for="pay-10">70 TK</label>
+            </td>
+            <td>
+              <input type="radio" id="pay-11" name="stu" value="pay-11" />
+              <label for="pay-11">90 TK</label>
+            </td>
+          </tr>
+        </table>
+
+        <h2 class="pt-5">Select Lunch</h2>
         <h4>
           <a href="#"
-            ><span class="text-danger pr-2">STEP 2:</span> Please select your
-            lunch</a
-          >
+            ><span class="text-danger pr-2">STEP 2:</span>
+            <span class="d-none d-sm-inline-block"
+              >Please select your lunch</span
+            >
+          </a>
         </h4>
         <table class="table-tic">
           <tr>
