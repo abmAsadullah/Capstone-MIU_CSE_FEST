@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capstone MIU CSE FEST 2020</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/e252d07dd4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="top-nav d-none d-md-block p-lr-200">
+        <ul>
+          <li><a href="#">FB</a></li>
+          <li><a href="#">TW</a></li>
+          <li><a href="#">English</a></li>
+          <li><a href="#">My Page</a></li>
+          <li><a href="#">Layout</a></li>
+        </ul>
+      </div>
+      <nav class="bot-nav d-flex justify-content-between">
+        <div class="left-nav d-md-block">
+          <a href="index.html"
+            ><img src="./images/nav-icon/cse-fest.png" alt="CSE "
+          /></a>
+        </div>
+        <div class="d-block d-md-flex h-100">
+          <a
+            class="d-block d-md-none min-nav mobile-menu"
+            data-toggle="collapse"
+            href="#click-menu"
+          >
+          </a>
+          <div class="right-nav d-md-block collapse" id="click-menu">
+            <ul>
+              <li><a href="about.html">About</a></li>
+              <li class="d-md-none d-lg-block">
+                <a href="index.html">Program</a>
+              </li>
+              <li><a href="./tickets.html">Join</a></li>
+              <li class="d-md-none d-lg-block">
+                <a href="index.html">Support</a>
+              </li>
+              <li class="d-none d-xl-block"><a href="index.html">News</a></li>
+              <li class="nav-camp"><a href="index.html">Campaign</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="tickets">
+        <h1 class="mb-3 border">Join Us</h1>
+        <h2>Select Ticket</h2>
+        <h4>
+          <a href="#"
+            ><span class="text-danger pr-2">STEP 1:</span
+            ><span class="d-none d-sm-inline-block"
+              >Please select your date</span
+            >
+          </a>
+        </h4>
+        <table class="table-tic d-none d-sm-table">
+          <tr>
+            <th>Date</th>
+            <th>12 Mar</th>
+            <th>13 Mar</th>
+            <th>14 Mar</th>
+            <th>12-13 Mar</th>
+            <th>13-14 Mar</th>
+            <th>12-14 Mar</th>
+          </tr>
+          <tr>
+            <td>Normal</td>
+            <td>
+              <input type="radio" id="pay" name="stu" value="pay" />
+              <label for="pay">50 TK</label>
+            </td>
+            <td>
+              <input type="radio" id="pay-1" name="stu" value="pay-1" />
+              <label for="pay-1">50 TK</label>
+            </td>
+            <td>
+              <input type="radio" id="pay-2" name="stu" value="pay-2" />
+              <label for="pay-2">50 TK</label>
+            </td>
+            <td>
+              <input type="radio" id="pay-3" name="stu" value="pay-3" />
+              <label for="pay-3">90 TK</label>
+            </td>
+            <td>
+              <input type="radio" id="pay-4" name="stu" value="pay-4" />
+              <label for="pay-4">90 TK</label>
+            </td>
+            <td>
+              <input type="radio" id="pay-5" name="stu" value="pay-5" />
+              <label for="pay-5">120 TK</label>
+            </td>
+          </tr>
+          <tr>
+            <td>Student</td>
+            <td>
+              <input type="radio" id="pay-6" name="stu" value="pay-6" />
+              <label for="pay-6">40 TK</label>
+            </td>
+            <td>
+              <input type="radio" id="pay-7" name="stu" value="pay-7" />
+              <label for="pay-7">40 TK</label>
+            </td>
+            <td>
+              <input type="radio" id="pay-8" name="stu" value="pay-8" />
+              <label for="pay-8">40 TK</label>
+            </td>
+            <td>
+              <input type="radio" id="pay-9" name="stu" value="pay-9" />
+              <label for="pay-9">70 TK</label>
+            </td>
+            <td>
+              <input type="radio" id="pay-10" name="stu" value="pay-10" />
+              <label for="pay-10">70 TK</label>
+            </td>
+            <td>
+              <input type="radio" id="pay-11" name="stu" value="pay-11" />
+              <label for="pay-11">90 TK</label>
+            </td>
+          </tr>
+        </table>
+
+        <table class="table-tic d-sm-none">
+          <tr>
+            <th>Day</th>
+            <th>1 day</th>
+            <th>2 days</th>
+            <th>3 days</th>
+          </tr>
+          <tr>
+            <td>Normal</td>
+            <td>
+              <input type="radio" id="pay-2-1" name="stu" value="pay-2" />
+              <label for="pay-2-1">50 TK</label>
+            </td>
+            <td>
+              <input type="radio" id="pay-3-1" name="stu" value="pay-3" />
+              <label for="pay-3-1">90 TK</label>
+            </td>
+            <td>
+              <input type="radio" id="pay-5-1" name="stu" value="pay-5" />
+              <label for="pay-5-1">120 TK</label>
+            </td>
+          </tr>
+          <tr>
+            <td>Student</td>
+            <td>
+              <input type="radio" id="pay-8-1" name="stu" value="pay-8" />
+              <label for="pay-8-1">40 TK</label>
+            </td>
+            <td>
+              <input type="radio" id="pay-10-1" name="stu" value="pay-10" />
+              <label for="pay-10-1">70 TK</label>
+            </td>
+            <td>
+              <input type="radio" id="pay-11-1" name="stu" value="pay-11" />
+              <label for="pay-11-1">90 TK</label>
+            </td>
+          </tr>
+        </table>
+
+        <h2 class="pt-5">Select Lunch</h2>
+        <h4>
+          <a href="#"
+            ><span class="text-danger pr-2">STEP 2:</span>
+            <span class="d-none d-sm-inline-block"
+              >Please select your lunch</span
+            >
+          </a>
+        </h4>
+        <table class="table-tic">
+          <tr>
+            <th>12 March</th>
+            <th>13 March</th>
+            <th>14 March</th>
+          </tr>
+          <tr>
+            <td>
+              <input type="radio" id="pay-12" name="fst" value="pay-12" />
+              <label for="pay-12">Menu-1</label>
+            </td>
+            <td>
+              <input type="radio" id="pay-13" name="snd" value="pay-13" />
+              <label for="pay-13">Menu-1</label>
+            </td>
+            <td>
+              <input type="radio" id="pay-14" name="trd" value="pay-14" />
+              <label for="pay-14">Menu-1</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="radio" id="pay-15" name="fst" value="pay-15" />
+              <label for="pay-15">Menu-1</label>
+            </td>
+            <td>
+              <input type="radio" id="pay-16" name="snd" value="pay-16" />
+              <label for="pay-16">Menu-2</label>
+            </td>
+            <td>
+              <input type="radio" id="pay-17" name="trd" value="pay-17" />
+              <label for="pay-17">Menu-2</label>
+            </td>
+          </tr>
+        </table>
+
+        <input type="button" class="button mt-5" value="Submit & Join" />
+      </div>
+    </main>
+
+    <footer>
+      <div class="top-foot">
+        <div class="top-foot-title text-center">
+          <h2>Partner</h2>
+        </div>
+        <div class="top-foot-logo">
+          <img src="./images/spon/02.png" alt="Sponsor" />
+          <img src="./images/spon/03.png" alt="Sponsor" />
+          <img src="./images/spon/04.jpg" alt="Sponsor" />
+          <img src="./images/spon/05.png" alt="Sponsor" />
+          <img src="./images/spon/06.png" alt="Sponsor" />
+          <img src="./images/spon/01.png" alt="Sponsor" />
+        </div>
+      </div>
+      <div class="bot-foot d-flex">
+        <div>
+          <img src="./images/spon/01.png" alt="Logo" />
+        </div>
+        <div class="bot-foot-right">
+          <p class="font-weight-bold">Copiwrite by MIU CSE Club</p>
+          <p>
+            If you want to join you can contact withe us va email or physically.
+          </p>
+          <p>This function is authorized by Manarat Trusty board</p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
