@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Capstone MIU CSE FEST 2020</title>
-    <!-- <link rel="stylesheet" href="https://fonts.google.com/?query=lato" /> -->
     <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
@@ -19,7 +18,7 @@
   </head>
   <body>
     <header>
-      <div class="top-nav d-none d-md-block p-lr-200">
+      <div class="top-nav d-none d-md-block">
         <ul>
           <li><a href="#">FB</a></li>
           <li><a href="#">TW</a></li>
@@ -28,26 +27,35 @@
           <li><a href="#">Layout</a></li>
         </ul>
       </div>
-      <nav class="bot-nav d-none d-md-flex justify-content-between p-lr-200">
+      <nav class="bot-nav d-flex justify-content-between">
         <div class="left-nav">
           <a href="index.html"
             ><img src="./images/nav-icon/cse-fest.png" alt="CSE "
           /></a>
         </div>
-        <div class="right-nav">
-          <ul class="d-flex">
-            <li><a href="about.html">About</a></li>
-            <li class="d-none d-lg-block"><a href="#">Program</a></li>
-            <li><a href="./tickets.html">Join</a></li>
-            <li class="d-none d-lg-block"><a href="#">Support</a></li>
-            <li class="d-none d-xl-block"><a href="#">News</a></li>
-            <li class="nav-camp"><a href="#">Campaign</a></li>
-          </ul>
+        <div class="d-block d-md-flex h-100">
+          <a
+            class="d-block d-md-none min-nav mobile-menu"
+            data-toggle="collapse"
+            href="#click-menu"
+          >
+          </a>
+          <div class="right-nav d-md-block collapse" id="click-menu">
+            <ul>
+              <li><a href="about.html">About</a></li>
+              <li class="d-md-none d-lg-block">
+                <a href="index.html">Program</a>
+              </li>
+              <li><a href="./tickets.html">Join</a></li>
+              <li class="d-md-none d-lg-block">
+                <a href="index.html">Support</a>
+              </li>
+              <li class="d-none d-xl-block"><a href="index.html">News</a></li>
+              <li class="nav-camp"><a href="index.html">Campaign</a></li>
+            </ul>
+          </div>
         </div>
       </nav>
-      <div class="min-nav">
-        <div class="mobile-menu d-block d-md-none"></div>
-      </div>
     </header>
 
     <main>
