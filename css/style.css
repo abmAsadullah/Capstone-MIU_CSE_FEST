@@ -132,19 +132,13 @@ header {
   width: 40px;
   height: 40px;
   padding-bottom: 20px;
-  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
-    no-repeat;
+  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") no-repeat;
   background-size: cover;
 }
 
 .slides {
   padding: 40px 40px;
-  background: linear-gradient(
-    90deg,
-    rgba(52, 42, 219, 1) 0%,
-    rgba(197, 231, 54, 1) 50%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: linear-gradient(90deg, rgba(52, 42, 219, 1) 0%, rgba(197, 231, 54, 1) 50%, rgba(0, 212, 255, 1) 100%);
 }
 
 .slides-title-1 {
@@ -217,21 +211,11 @@ header {
 }
 
 .old-photo-1 {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(174, 65, 45, 0.52),
-      rgba(174, 65, 45, 0.52)
-    ),
-    url("../images/bg/contest.jpg");
+  background-image: linear-gradient(to bottom, rgba(174, 65, 45, 0.52), rgba(174, 65, 45, 0.52)), url("../images/bg/contest.jpg");
 }
 
 .old-photo-2 {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(174, 65, 45, 0.52),
-      rgba(174, 65, 45, 0.52)
-    ),
-    url("../images/bg/fest-01.jpg");
+  background-image: linear-gradient( to bottom, rgba(174, 65, 45, 0.52), rgba(174, 65, 45, 0.52)), url("../images/bg/fest-01.jpg");
 }
 
 .old-photo-1,
@@ -455,9 +439,11 @@ header {
     padding: 10px;
     display: flex;
   }
+
   .topic-item img {
     max-width: 70px;
   }
+
   .topic-item img,
   .topic-item h3,
   .topic-item p {
